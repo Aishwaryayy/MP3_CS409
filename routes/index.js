@@ -5,7 +5,7 @@
 module.exports = function (app, router) {
   const mongoose = require("mongoose");
 
-  require("../models/User");
+  require("../models/user");
   require("../models/Task");
 
   const User = mongoose.model("User");
